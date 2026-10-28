@@ -18,7 +18,10 @@
   th { background: #ffffff; }
   a { color: #b24a08; }
   .effective { color: #66666e; font-size: .95rem; }
+  .notice { background: #ffffff; border: 1px solid #e6e5e0; border-left: 4px solid #f2650f; padding: .8rem 1rem; margin: 1.2rem 0; }
+  .notice h2 { margin-top: 0; }
   @media (prefers-color-scheme: dark) {
+    .notice { background: #16161b; border-color: #26262e; border-left-color: #ff7a1a; }
     body { color: #f5f5f2; background: #0b0b0f; }
     th, td { border-color: #26262e; }
     th { background: #16161b; }
@@ -29,6 +32,16 @@
 </style>
 </head>
 <body>
+<!-- 예고 안내: 시행일(2026-12-05)부터 30일 동안 둔 뒤 이 div만 지워요. -->
+<div class="notice">
+<h2>개인정보 처리방침과 이용약관이 바뀌어요</h2>
+<p>2026-12-05부터 처리방침 버전 2.1, 이용약관 버전 1.1이 적용됩니다.</p>
+<p>트레이너와 연결하는 기능이 생깁니다.<br>
+회원이 동의하고 켠 운동 기록만 연결한 트레이너에게 보여 줍니다.<br>
+PT 알림 푸시는 Apple 알림 서버(미국)를 거칩니다.<br>
+트레이너와 연결하지 않으면 달라지는 것이 없습니다.</p>
+<p><a href="https://pherd94.github.io/bulcup-privacy/v2.1/">바뀌는 처리방침 보기</a> · <a href="https://pherd94.github.io/bulcup-privacy/terms-v1.1/">바뀌는 이용약관 보기</a></p>
+</div>
 <h1>벌컵 서비스 이용약관</h1>
 <p class="effective">버전 1.0 · 시행일: 2026-10-22</p>
 
